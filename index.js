@@ -1,7 +1,7 @@
-var mangNhanVien=[];
+var mangNhanVien= [];
 var check = new Validation();
 document.getElementById('btnThemNV').onclick = function (){
-    var nv = new NhanVien();
+    var nv  = new  NhanVien();
     nv.tknv = document.querySelector('#tknv').value;
     nv.name= document.querySelector('#name').value;
     nv.email = document.querySelector('#email').value;

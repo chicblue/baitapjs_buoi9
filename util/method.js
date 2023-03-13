@@ -29,7 +29,7 @@ function xoaNhanVien(taiKhoanNVClick){
     var indexDel = -1;
     for(i=0;i<mangNhanVien.length;i++){
         if(mangNhanVien[i].tknv === taiKhoanNVClick){
-            mangNhanVien[i]=indexDel;
+            indexDel = mangNhanVien[i];
             break;
         }
     }
