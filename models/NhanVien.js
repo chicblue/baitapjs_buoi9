@@ -10,4 +10,4 @@ function NhanVien(){
     this.gioLam = '';
     this.tongLuong = '';
     this.loaiNhanVien ='';
-}
+} 

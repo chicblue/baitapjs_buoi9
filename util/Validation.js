@@ -55,7 +55,7 @@ function Validation(){
         }
         document.getElementById(idError).innerHTML=`${name} Phải chứa ít nhất 1 ký tự số, 1 ký tự in hoa, 1 ký tự đặc biệt ,độ dài từ 6 đến 10 ký tự`;
         return false;
-    }
+    } 
     this.checkRole = function(value,idError){
         if(value=='0'){
             document.getElementById(idError).innerHTML=`Vui Lòng Chọn Chức Vụ`;

@@ -24,7 +24,7 @@ function tableNhanVien(arrNhanVien){
         document.querySelector('#tableDanhSach').innerHTML = htmlstring;
         return htmlstring;
     }
-
+ 
 function xoaNhanVien(taiKhoanNVClick){
     var indexDel = -1;
     for(i=0;i<mangNhanVien.length;i++){
